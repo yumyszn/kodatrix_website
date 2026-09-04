@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Zorunlu açık tema - karanlık mod devre dışı */
+body {
+  background: #f3f4f6;
+  color: #111827;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,68 @@
+h1 {
+    color: #f17916;
+    font-family: 'Arial', sans-serif; /* Yazı tipi */
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-shadow: 10px;
+}
+card-text-p  {
+    color: #c0921e;
+}
+h2 { color: black;
+    text-align: center;
+}
+a { color:steelblue ;}
+
+body {
+    background-color: #ffffff
+}
+
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Görselin üstüne karartma efekti */
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  .sol-yazi {
+    text-align: left;
+  }
+  
+ 
+  .hakkimizda-yazi {
+  font-size: 1.5rem; /* Yazı boyutunu biraz büyüttük */
+  line-height: 1.6;  /* Satır aralarını açtık */
+  margin-bottom: 120px; /* Her paragrafa biraz boşluk ekledik */
+  font-family: 'Arial', sans-serif; /* Düzgün bir font seçtik */
+  font-weight: 300; /* Hafif kalınlık */
+  transition: all 0.3s ease; /* Hover efekti için geçiş ekledik */
+}
+
+.hakkimizda-yazi:hover {
+    color: #007bff; /* Hoverda renk değişikliği */
+    transform: translateX(5px); /* Hafif sağa kaydırma efekti */
+  }
