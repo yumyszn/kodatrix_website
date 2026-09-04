@@ -26,7 +26,7 @@ export default function IletisimPage() {
     // Telefon doğrulama: 0 ile başlayan 11 haneli numara (örn: 0501 234 56 78)
     const digits = formData.phone.replace(/\D/g, "");
     if (!/^0?5\d{9}$/.test(digits)) {
-      setError("Geçerli bir telefon numarası girin (örn: 0501 234 56 78).");
+      setError("Geçerli bir telefon numarası girin (örn: 0511 111 22 33).");
       setSubmitting(false);
       return;
     }
